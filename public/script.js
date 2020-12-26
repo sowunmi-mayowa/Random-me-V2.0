@@ -1,5 +1,6 @@
 document.getElementById("get-data").addEventListener("click", getData);
 function getData(){
+  document.getElementById("job").style.display = "none";
     fetch('https://randomuser.me/api/')
     .then(res => {
         return res.json()
@@ -14,8 +15,7 @@ function getData(){
           <img src="${final.picture.large}" class="rounded-full w-32 h-32 border-white md:h-42 md:w-42">
         </div>
         <div class="font-bold text-white">
-          <h1 class="text-2xl capitalize">${final.name.title} ${final.name.first} ${final.name.last}</h1> 
-          <h3 class="text-gray-100 text-center uppercase">front end developer</h3>
+          <h1 class="text-2xl capitalize">${final.name.title} ${final.name.first} ${final.name.last}</h1>
         </div>
       </div>
      <div class="flex flex-col items-center justify-center text-gray-800">
