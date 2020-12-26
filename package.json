@@ -4,7 +4,7 @@
   "description": "a web application made with tailwind css and random user api. the web app generates random user ",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/style.css -o public/style.css"
+    "build-css": "tailwindcss build src/style.css -o public/style.css",
     "build": "npm start"
   },
   "author": "sowunmi oluwamayowa",
