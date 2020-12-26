@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss build src/style.css -o public/style.css"
+    "build": "npm start"
   },
   "author": "sowunmi oluwamayowa",
   "license": "ISC",
